@@ -1,0 +1,10 @@
+[GLOBAL]
+pants_version = "2.11.0"
+backend_packages.add = [
+  "pants.backend.python",
+  "pants.backend.python.lint.black",
+]
+
+[anonymous-telemetry]
+enabled = true
+repo_id = "6DA41B52-C0C1-4CB9-BAC5-D1C7315BF77D"
