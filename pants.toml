@@ -4,6 +4,10 @@ backend_packages.add = [
   "pants.backend.python",
   "pants.backend.python.lint.black",
 ]
+build_ignore = [
+  "projects",
+  "!projects/hello",
+]
 
 [anonymous-telemetry]
 enabled = true
